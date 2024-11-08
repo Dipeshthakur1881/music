@@ -1,0 +1,26 @@
+.container{
+    top: 24%;
+    height: 300px;
+    position: absolute;
+    left: 32%;
+}
+
+.container h2{
+    font-family: cursive;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.container button{
+    width: 180px;
+    height: 40px;
+    font-size: 16px;
+    font-family: cursive;
+    font-weight: 700;
+    border: none;
+    outline: none;
+    background-color: blue;
+    color: white;
+    border-radius: 4px;
+    margin-left: 150px;
+}

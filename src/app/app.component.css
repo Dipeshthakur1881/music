@@ -1,0 +1,37 @@
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  background-color: black;
+}
+
+.navbar h2{
+  color: #fff;
+  font-family: cursive;
+  font-size: 30px;
+  font-weight: bold;
+  padding-left: 30px;
+}
+
+.navbar ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar ul li{
+  color: #fff;
+  font-size: 22px;
+  font-family: cursive;
+  font-weight: bold;
+  list-style: none;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.navbar ul li:hover{
+  margin-top: 10px;
+  transition: 1s 1 ease-in;
+  
+}

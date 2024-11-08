@@ -1,0 +1,41 @@
+<header>
+    <div class="toolbar">
+      <span>🎵 Angular Music Player</span>
+      <span class="spacer"></span>
+      <span>Now Playing: {{ currentMusic.title }}</span>
+    </div>
+  </header>
+  
+  <div class="music-list">
+    <table class="music-table">
+      <thead>
+        <tr>
+          <th>Title</th>
+          <th>Artist</th>
+          <th>Album</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let music of musicList; let i = index">
+          <td><a (click)="play(i)" style="cursor: pointer;">{{ music.title }}</a></td>
+          <td>{{ music.artist }}</td>
+          <td>{{ music.album }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  
+  <footer>
+    <div class="controls">
+      <button (click)="prev()">⏮</button>
+      <button (click)="play()">{{ audio.paused ? '▶' : '⏸' }}</button>
+      <button (click)="next()">⏭</button>
+      <button>🔊</button>
+    </div>
+  
+    <div class="time-info">
+      {{ currentTime }} / {{ musicLength }}
+      <input type="range" [value]="audio.currentTime"/>
+    </div>
+  </footer>
+  

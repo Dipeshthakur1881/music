@@ -1,0 +1,99 @@
+[debug] [2024-11-08T10:29:58.871Z] ----------------------------------------------------------------------
+[debug] [2024-11-08T10:29:58.874Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Ankit Kumar Mishra\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2024-11-08T10:29:58.874Z] CLI Version:   13.24.2
+[debug] [2024-11-08T10:29:58.874Z] Platform:      win32
+[debug] [2024-11-08T10:29:58.874Z] Node Version:  v18.17.0
+[debug] [2024-11-08T10:29:58.876Z] Time:          Fri Nov 08 2024 15:59:58 GMT+0530 (India Standard Time)
+[debug] [2024-11-08T10:29:58.876Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-11-08T10:29:58.884Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-11-08T10:29:58.885Z] > authorizing via signed-in user (pro12fessor3@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Ayush class 12th website\Complete Web devolopement bootcamp\Song Angular Pro\music
+
+Before we get started, keep in mind:
+
+  * You are currently outside your home directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project. 
+[debug] [2024-11-08T10:33:16.548Z] Checked if tokens are valid: true, expires at: 1731064287365
+[debug] [2024-11-08T10:33:16.548Z] Checked if tokens are valid: true, expires at: 1731064287365
+[debug] [2024-11-08T10:33:16.550Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects [none]
+[debug] [2024-11-08T10:33:16.550Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"projectId":"Song","name":"Song"}
+[debug] [2024-11-08T10:33:19.117Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects 400
+[debug] [2024-11-08T10:33:19.117Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"error":{"code":400,"message":"Request contains an invalid argument.","status":"INVALID_ARGUMENT","details":[{"@type":"type.googleapis.com/google.rpc.BadRequest","fieldViolations":[{"field":"project_id","description":"project_id must be at least 6 characters long"},{"field":"project_id","description":"project_id contains invalid characters"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"url":"https://cloud.google.com/resource-manager/reference/rest/v1/projects"}]}]}}
+[debug] [2024-11-08T10:33:19.124Z] FirebaseError: Request to https://cloudresourcemanager.googleapis.com/v1/projects had HTTP Error: 400, Request contains an invalid argument.
+    at responseToError (C:\Users\Ankit Kumar Mishra\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:52:12)
+    at RetryOperation._fn (C:\Users\Ankit Kumar Mishra\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:312:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to create project. See firebase-debug.log for more info.
+[debug] [2024-11-08T10:33:51.227Z] ----------------------------------------------------------------------
+[debug] [2024-11-08T10:33:51.230Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Ankit Kumar Mishra\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2024-11-08T10:33:51.230Z] CLI Version:   13.24.2
+[debug] [2024-11-08T10:33:51.230Z] Platform:      win32
+[debug] [2024-11-08T10:33:51.230Z] Node Version:  v18.17.0
+[debug] [2024-11-08T10:33:51.231Z] Time:          Fri Nov 08 2024 16:03:51 GMT+0530 (India Standard Time)
+[debug] [2024-11-08T10:33:51.232Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-11-08T10:33:51.240Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-11-08T10:33:51.241Z] > authorizing via signed-in user (pro12fessor3@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Ayush class 12th website\Complete Web devolopement bootcamp\Song Angular Pro\music
+
+Before we get started, keep in mind:
+
+  * You are currently outside your home directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project. 
+[debug] [2024-11-08T10:34:53.846Z] Checked if tokens are valid: true, expires at: 1731064287365
+[debug] [2024-11-08T10:34:53.847Z] Checked if tokens are valid: true, expires at: 1731064287365
+[debug] [2024-11-08T10:34:53.849Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects [none]
+[debug] [2024-11-08T10:34:53.849Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"projectId":"songcap917","name":"songcap917"}
+[debug] [2024-11-08T10:34:57.214Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects 200
+[debug] [2024-11-08T10:34:57.215Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"name":"operations/cp.7640889628652665382"}
+[debug] [2024-11-08T10:34:57.219Z] Checked if tokens are valid: true, expires at: 1731064287365
+[debug] [2024-11-08T10:34:57.219Z] Checked if tokens are valid: true, expires at: 1731064287365
+[debug] [2024-11-08T10:34:57.220Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.7640889628652665382 [none]
+[debug] [2024-11-08T10:34:59.454Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.7640889628652665382 200
+[debug] [2024-11-08T10:34:59.455Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.7640889628652665382 {"name":"operations/cp.7640889628652665382","metadata":{"@type":"type.googleapis.com/google.cloudresourcemanager.v1.ProjectCreationStatus","ready":true},"done":true,"error":{"code":9,"message":"Callers must accept Terms of Service","details":[{"@type":"type.googleapis.com/google.rpc.PreconditionFailure","violations":[{"type":"TOS","subject":"cloud","description":"Callers must accept Terms of Service"}]}]}}
+[debug] [2024-11-08T10:34:59.472Z] FirebaseError: Callers must accept Terms of Service
+    at OperationPoller.poll (C:\Users\Ankit Kumar Mishra\AppData\Roaming\npm\node_modules\firebase-tools\lib\operation-poller.js:24:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async createCloudProject (C:\Users\Ankit Kumar Mishra\AppData\Roaming\npm\node_modules\firebase-tools\lib\management\projects.js:186:29)
+    at async createFirebaseProjectAndLog (C:\Users\Ankit Kumar Mishra\AppData\Roaming\npm\node_modules\firebase-tools\lib\management\projects.js:45:9)
+    at async promptAndCreateNewProject (C:\Users\Ankit Kumar Mishra\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\features\project.js:32:12)
+    at async doSetup (C:\Users\Ankit Kumar Mishra\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\features\project.js:88:27)
+    at async init (C:\Users\Ankit Kumar Mishra\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\index.js:41:9)
+[error] 
+[error] Error: Failed to create project. See firebase-debug.log for more info.
